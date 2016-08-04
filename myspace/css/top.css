@@ -1,0 +1,190 @@
+
+HTML {
+	FONT-FAMILY: Tahoma; FONT-SIZE: 62.5%
+}
+
+BODY {
+	LINE-HEIGHT: 1.333; FONT-SIZE: 12px
+
+}
+
+body {
+	/*background:#9933CC;*/
+	background:url(../images/panda.jpg)
+	font-family:Verdana, Helvetica, Arial, sans-serif;
+	margin:0;
+	padding:0;
+
+/*	background-repeat:no-repeat;*/
+	/*background-position: top center ;*/
+
+}
+.examples {	
+
+	
+	width:1024px;
+	height:640px;
+	margin:3.5em auto 2em;
+	padding:1em 2em 2em
+}
+#myspace {
+	width:750px;
+	height:531px;
+	background:url(../images/snowboard.jpg);
+	text-align:center;
+	margin:0 auto;
+}
+#myspace ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	white-space:nowrap;
+	text-align:left;
+	background:#9999CC;
+	border:1px solid #333;
+	border-color:#eee #555 #222 #fff;
+}
+#myspace ul {
+	display:inline-block;
+}
+#myspace li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#myspace li {
+	display:inline-block;
+	display:inline;
+}
+#myspace ul ul {
+	position:absolute;
+	left:-9999px;
+}
+#myspace ul.level1 {
+	margin:0 auto;
+}
+#myspace ul.level1 li.level1-li {
+	float:left;
+	display:block;
+	position:relative;
+}
+#myspace b {
+	position:absolute;
+} 
+#myspace a {
+	display:block;
+	font:normal 11px verdana, arial, sans-serif;
+	color:#000;
+	line-height:25px;
+	text-decoration:none;
+	padding:0 20px;
+}
+#myspace ul.level1 li.level1-li a.level1-a {
+	float:left;
+}
+#myspace ul li:hover > ul {
+	visibility:visible;
+	left:0;
+	top:21px;
+}
+#myspace ul ul li:hover > ul {
+	visibility:visible;
+	left:100%;
+	top:auto;
+	margin-top:-25px;
+	margin-left:-4px;
+}
+#myspace li.left:hover > ul {
+	visibility:visible;
+	left:auto;
+	right:0;
+	top:25px;
+}
+#myspace li.left ul li:hover > ul {
+	visibility:visible;
+	left:auto;
+	right:100%;
+	top:auto;
+	margin-top:-25px;
+	margin-right:-4px;
+}
+#myspace a:hover ul {
+	left:0;
+	top:23px;
+}
+#myspace li.left a:hover ul {
+	left:auto;
+	right:-1px;
+	top:23px;
+}
+#myspace li.left ul a {
+	text-align:right;
+}
+#myspace a:hover a:hover ul, #lanrenzhijia a:hover a:hover a:hover ul {
+	left:100%;
+	visibility:visible;
+}
+#myspace li.left a:hover a:hover ul, #lanrenzhijia li.left a:hover a:hover a:hover ul {
+	left:auto;
+	right:0;
+	visibility:visible;
+}
+#myspace a:hover ul ul, #lanrenzhijia a:hover a:hover ul ul {
+	left:-9999px;
+}
+#myspace li.left a:hover ul ul, #lanrenzhijia li.left a:hover a:hover ul ul {
+	left:-9999px;
+}
+#myspace li a.drop {
+	background:transparent url(../images/white-down.gif) no-repeat right center;
+}
+#myspace li a.fly {
+	background:transparent url(../images/white-right.gif) no-repeat right center;
+}
+#myspace li.left ul a.fly {
+	background:transparent url(../images/white-left.gif) no-repeat left center;
+}
+#myspace li a:hover, #lanrenzhijia li a.fly:hover {
+	color:#c60;
+	background-color:#c0c0c8;
+}
+#myspace li:hover > a, #lanrenzhijia ul li:hover > a.fly {
+	color:#c60;
+	background-color:#c0c0c8;
+}
+#myspace table {
+	position:absolute;
+	height:0;
+	width:0;
+	left:0;
+	border-collapse:collapse;
+	margin-top:-6px;
+}
+#myspace table table {
+	position:absolute;
+	left:99%;
+	height:0;
+	width:0;
+	border-collapse:collapse;
+	margin-top:-30px;
+	margin-left:-4px;
+}
+#myspace li.left table {
+	position:absolute;
+	height:0;
+	width:0;
+	left:auto;
+	right:0;
+	border-collapse:collapse;
+	margin-top:-4px;
+}
+#myspace li.left table table {
+	position:absolute;
+	left:auto;
+	right:100%;
+	height:0;
+	width:0;
+	border-collapse:collapse;
+	margin-top:-30px;
+	margin-right:-4px;
+}

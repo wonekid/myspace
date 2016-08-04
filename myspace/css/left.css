@@ -1,0 +1,112 @@
+/* CSS Document */
+#iewrap{
+	position:relative;
+	height:30px
+	
+	}
+	#iewrap2{
+	position:absolute
+	
+	}
+	#dropmenu03{
+	filter:revealTrans(Duration=1.5,Transition=12)
+	visibility:hide
+	
+	}
+	a:hover{ 
+		font-family: "¡• È"; 
+		font-size: 15pt;
+		color: #FF9966
+	}
+	a { 
+		font-family: "¡• È"; font-size: 13pt; text-decoration: none
+	}
+#button{
+	
+	width:120px;
+	height:41px;
+	margin:0 auto;
+	background:url(../images/buttonBG.gif) no-repeat;
+}
+#button:hover{ 
+	cursor:pointer;
+	background:url(../images/buttonBG.gif) no-repeat 0 -41px;}
+
+#home_button_1{
+	display:block;	
+	font-size:15;
+	width:263px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/he.jpg) no-repeat 0 -12px ;}
+#home_button_1:hover{ 
+	cursor:pointer;
+	display:block;
+	width:263px;
+	height:60px;
+	background:url(../images/he.jpg) no-repeat 0 -120px;}
+
+#home_button_2{
+	display:block;
+	width:263px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/he.jpg) no-repeat 0 -12px;}
+#home_button_2:hover{ 
+	cursor:pointer;
+	display:block;
+	width:263px;
+	height:60px;
+	background:url(../images/he.jpg) no-repeat 0 -120px;}
+
+#home_button_3{
+	display:block;
+	width:263px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/he.jpg) no-repeat 0 -12px;}
+#home_button_3:hover{ 
+	cursor:pointer;
+	display:block;
+	width:263px;
+	height:60px;
+	background:url(../images/he.jpg) no-repeat 0 -120px;}
+
+#home_button_4{
+	display:block;
+	width:263px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/he.jpg) no-repeat 0 -12px;}
+#home_button_4:hover{ 
+	cursor:pointer;
+	display:block;
+	width:263px;
+	height:60px;
+	background:url(../images/he.jpg) no-repeat 0 -120px;}
+
+#home_button_5{
+	display:block;
+	width:263px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/he.jpg) no-repeat 0 -12px;}
+#home_button_5:hover{ 
+	cursor:pointer;
+	display:block;
+	width:263px;
+	height:60px;
+	background:url(../images/he.jpg) no-repeat 0 -120px;}
+
+#home_button_6{
+	display:block;
+	width:263px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/he.jpg) no-repeat 0 -12px;}
+#home_button_6:hover{ 
+	cursor:pointer;
+	display:block;
+	width:263px;
+	height:60px;
+	background:url(../images/he.jpg) no-repeat 0 -120px;}
